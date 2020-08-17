@@ -23,7 +23,7 @@ namespace MirrorAceNet.ResponseJson
         public Dictionary<string, bool>? Mirrors { get; set; }
 
         [JsonProperty("default_mirrors")]
-        public List<long>? DefaultMirrors { get; set; }
+        public List<string>? DefaultMirrors { get; set; }
 
         [JsonProperty("max_chunk_size")]
         public long MaxChunkSize { get; set; }
